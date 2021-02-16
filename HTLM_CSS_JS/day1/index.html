@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>100DaysOfCode</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../style.css" />
+    <style>
+      article,
+      aside,
+      nav {
+        display: block;
+      }
+      article {
+        float: left;
+        width: 100%;
+      }
+      aside {
+        float: left;
+      }
+      article {
+        width: 500px;
+      }
+      nav {
+        width: 250px;
+      }
+    </style>
+  </head>
+  <body>
+    <header><h3 class="text-center">Day 1 : HTML Revision</h3></header>
+    <div class="container">
+      <article>
+        <h1>The aside element - Styled with CSS</h1>
+
+        <p>
+          My family and I visited The Epcot center this summer. The weather was
+          nice, and Epcot was amazing! I had a great summer together with my
+          family!
+        </p>
+
+        <aside class="use1">
+          <p>
+            The Epcot center is a theme park at Walt Disney World Resort
+            featuring exciting attractions, international pavilions,
+            award-winning fireworks and seasonal special events.
+          </p>
+        </aside>
+
+        <p>
+          My family and I visited The Epcot center this summer. The weather was
+          nice, and Epcot was amazing! I had a great summer together with my
+          family!
+        </p>
+        <p>
+          My family and I visited The Epcot center this summer. The weather was
+          nice, and Epcot was amazing! I had a great summer together with my
+          family!
+        </p>
+      </article>
+      <aside class="use2">
+        <h2>Related links</h2>
+        <nav>
+          <ul>
+            <li><a href="#">10 things about HTML4</a></li>
+            <li><a href="#">10 things about CSS3</a></li>
+            <li><a href="#">10 things about JavaScript</a></li>
+          </ul>
+        </nav>
+      </aside>
+    </div>
+    <div class="container">
+      <table>
+        <colgroup>
+          <col span="2" style="background-color: red" />
+          <col style="background-color: yellow" />
+        </colgroup>
+        <tr>
+          <th>ISBN</th>
+          <th>Title</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>3476896</td>
+          <td>My first HTML</td>
+          <td>$53</td>
+        </tr>
+        <tr>
+          <td>5869207</td>
+          <td>My first CSS</td>
+          <td>$49</td>
+        </tr>
+        <caption>
+          <h4 class="text-center">colgroup tag</h4>
+        </caption>
+      </table>
+    </div>
+    <div class="container">
+      <h3>The details element</h3>
+
+      <details>
+        <summary>Epcot Center</summary>
+        <p>
+          Epcot is a theme park at Walt Disney World Resort featuring exciting
+          attractions, international pavilions, award-winning fireworks and
+          seasonal special events.
+        </p>
+      </details>
+      <figure>
+        <img src="../images/html.png" alt="html" style="width: 20%" />
+        <figcaption>Fig.1 - HTML icon.</figcaption>
+      </figure>
+      <h1>The legend element</h1>
+
+      <form action="/action_page.php">
+        <fieldset>
+          <legend>Personalia:</legend>
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname" /><br /><br />
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname" /><br /><br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" /><br /><br />
+          <label for="birthday">Birthday:</label>
+          <input type="date" id="birthday" name="birthday" /><br /><br />
+          <input type="submit" value="Submit" />
+        </fieldset>
+      </form>
+
+      <h1>The main element</h1>
+
+      <main>
+        <h1>Most Popular Browsers</h1>
+        <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+        <article>
+          <h2>Google Chrome</h2>
+          <p>
+            Google Chrome is a web browser developed by Google, released in
+            2008. Chrome is the world's most popular web browser today!
+          </p>
+        </article>
+
+        <article>
+          <h2>Mozilla Firefox</h2>
+          <p>
+            Mozilla Firefox is an open-source web browser developed by Mozilla.
+            Firefox has been the second most popular web browser since January,
+            2018.
+          </p>
+        </article>
+
+        <article>
+          <h2>Microsoft Edge</h2>
+          <p>
+            Microsoft Edge is a web browser developed by Microsoft, released in
+            2015. Microsoft Edge replaced Internet Explorer.
+          </p>
+        </article>
+      </main>
+
+      <h1>The meter element</h1>
+      <p>The meter element is used to display a gauge:</p>
+      <label for="html">HTML:</label>
+      <meter id="html" value="9" min="0" max="10">8 out of 10</meter><br />
+      <label for="css">CSS:</label>
+      <meter id="css" value="0.8">80%</meter>
+      <p>
+        <strong>Note:</strong> The meter tag is not supported in Edge 12 (or
+        earlier).
+      </p>
+      
+        <h1>The object element</h1>
+        <object data="../images/img.jpeg" width="300" height="200"></object>
+
+        <h1>The picture element</h1>
+        <p>Resize the browser window to load different images.</p>
+        <picture>
+        <source media="(min-width:650px)" srcset="../images/css.png">
+        <source media="(min-width:465px)" srcset="../images/html.png">
+        <img src="../images/img.jpeg" style="width:auto;">
+        </picture>
+
+        <h1>The progress element</h1>
+        <label for="file">Downloading progress:</label>
+        <progress id="file" value="32" max="100"> 32% </progress>
+        
+        <h1>The output element</h1>
+        <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+            <input type="range" id="a" value="50">
+            +<input type="number" id="b" value="25">
+            =<output name="x" for="a b"></output>
+        </form>
+
+        <h1>The svg element</h1>
+        <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+        Sorry, your browser does not support inline SVG.
+        </svg>
+
+        <h1>The template Element</h1>
+        <p>Click the button below to display the hidden content from the template element.</p>
+        <button onclick="showContent()">Show hidden content</button>
+        <template>
+        <h2>Image</h2>
+        <img src="../images/img.jpeg" width="214" height="204">
+        </template>
+
+        <script>
+        function showContent() {
+        var temp = document.getElementsByTagName("template")[0];
+        var clon = temp.content.cloneNode(true);
+        document.body.appendChild(clon);
+        }
+        </script>
+</body>
+    </div>
+  </body>
+</html>

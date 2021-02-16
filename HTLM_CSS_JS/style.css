@@ -71,3 +71,21 @@ html {
     padding: 10px;
     text-align: center;
 }
+
+.use1 {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: blue;
+}
+
+.container {
+    padding: 50px;
+}
+
+.text-center {
+    align-content: center;
+    text-align: center;
+}
