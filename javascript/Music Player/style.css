@@ -1,0 +1,80 @@
+body {
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.grid {
+    width: 600px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: #bdc3c7;
+    padding: 10px 50px 50px 50px;
+    border: 2px solid #cbcbcb;
+    border-radius: 4px;
+}
+
+.grid h1 {
+    font-family: "sans-serif";
+    font-size: 60px;
+    text-align: center;
+    color: black;
+    padding: 2px 0px;
+}
+
+#score {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    background-color: green;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.grid #question {
+    font-family: "monospace";
+    font-size: 30px;
+    color: black;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+#btn0,
+#btn1,
+#btn2,
+#btn3 {
+    background-color: #FFEFBA;
+    width: 250px;
+    font-size: 20px;
+    color: black;
+    border: 1px solid #1D3C6A;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-left: 15px;
+}
+
+#btn0:hover,
+#btn1:hover,
+#btn2:hover,
+#btn3:hover {
+    cursor: pointer;
+    background-color: #01BBFF;
+}
+
+#btn0:focus,
+#btn1:focus,
+#btn2:focus,
+#btn3:focus {
+    outline: 0;
+}
+
+#progress {
+    color: #00467F;
+    font-size: 18px;
+    text-align: center;
+}
