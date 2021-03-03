@@ -1,0 +1,88 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0
+}
+
+body {
+    background: #bdc3c7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header {
+    background: black;
+}
+
+#header-logo {
+    width: 64px;
+    height: 64px;
+}
+
+#header-msg {
+    font-size: 25px;
+    color: white;
+}
+
+#btnOne {
+    background-color: black;
+    color: white;
+}
+
+#btnOne:focus,
+#btnOne:hover {
+    box-shadow: none;
+    outline: none;
+}
+
+#tableHead {
+    background-color: black;
+}
+
+#searchInput {
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    border-bottom: 1px solid #ced4da;
+}
+
+#searchInput:hover,
+#searchInput:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.form-container {
+    background-color: #000C40;
+    color: #F0F2F0;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.form-container:hover {
+    box-shadow: 12px 12px 12px 12px #ced4da;
+}
+
+.table-container {
+    border-radius: 10px;
+    background-color: #000C40;
+    color: #F0F2F0;
+    padding: 15px;
+    margin: 10px;
+}
+
+.table-container:hover {
+    box-shadow: 12px 12px 12px 12px #ced4da;
+}
+
+.input {
+    border-radius: 2px;
+}
+
+.table {
+    color: white;
+}
